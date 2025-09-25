@@ -1,0 +1,5 @@
+services:
+  - type: web
+    name: exambank
+    buildCommand: npm install && npm run build
+    startCommand: npm start
